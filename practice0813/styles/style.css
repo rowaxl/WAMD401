@@ -65,8 +65,15 @@ body {
   text-align: center;
 }
 
+.profile-wrap {
+  display: table;
+  clear: both;
+}
+
 .pic-profile {
   width: 250px;
+  float: left;
+  margin-right: 20px;
 }
 
 .profile {

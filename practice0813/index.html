@@ -49,6 +49,11 @@
       button.addEventListener('click', () => {
         const length = parseInt(document.getElementById('length').value);
 
+        if (length > 1000) {
+          document.getElementById('result').textContent = 'length should be smaller than 1000';
+          return;
+        }
+
         const text = document.getElementById('data').innerText.substring(0, length);
         document.getElementById('result').textContent = text;
       })
