@@ -1,0 +1,123 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #a5c093;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrap {
+  width: 1000px;
+  height: 1550px;
+  border-radius: 5px;
+  padding: 0 15px;
+  background-color: #fff;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+header img {
+  margin: 20px;
+}
+
+nav ul {
+  width: 100%;
+  padding: 0;
+  margin: 0 0 15px 0;
+  list-style: none;
+  display: table;
+}
+
+nav li {
+  font-size: 1.4em;
+  display: inline-block;
+  width: 194px;
+  height: 2em;
+  margin: 0;
+  background-color: #368cbf;
+  text-align: center;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+nav li:hover {
+  filter: brightness(85%);
+}
+
+nav li > a {
+  color: #fff;
+  vertical-align: sub;
+}
+
+img.banner {
+  width: 970px;
+}
+
+main {
+  display: table;
+  clear: both;
+}
+
+section h3 {
+  font-size: 1.3em;
+  font-weight: 900;
+}
+
+section.popular {
+  width: 25%;
+  float: left;
+}
+
+section.news {
+  width: 46%;
+  margin: 0 2%;
+  float: left;
+}
+
+section.councillors {
+  width: 25%;
+  float: left;
+}
+
+article {
+  background-color: #eee;
+  padding: 20px 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+article h5 {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: 900;
+  color: #246185;
+}
+
+span.date {
+  font-style: italic;
+}
+
+figure.councillor {
+  margin: 20px 0 0 0;
+
+}
+
+figure.councillor img {
+  width: 220px;
+}
+
+figure.councillor figcaption {
+  font-size: 1em;
+  font-weight: 900;
+  color: #246185;
+}
+
+footer {
+  margin: 25px 50px;
+}
