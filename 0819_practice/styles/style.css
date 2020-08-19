@@ -1,0 +1,52 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+header{
+    border:3px solid grey;
+    margin:20px;
+    height:400px;
+}
+
+header h1 {
+    font-size:40px;
+    line-height:300px;
+    text-align: center;
+    color:white;
+}
+
+.desktop{
+    background-color: blue;
+    display:none;
+}
+
+.tablet {
+    background-color: red;
+    display:none;
+}
+
+.mobile{
+    background-color: green;
+}
+ 
+@media(min-width:768px) {
+    .mobile{
+        display:none;
+    }
+    .tablet {
+        display:block;
+    }
+
+}
+@media(min-width:1024px) {
+    .tablet {
+        display:none;
+    }
+    .desktop {
+        display:block;
+    }
+}
+
