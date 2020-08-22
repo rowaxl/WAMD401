@@ -316,6 +316,12 @@ footer p {
   margin-bottom: 25px;
 }
 
+.chart {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
 @media only screen and (max-width: 767px) {
   table.table-shrink,
   table.table-shrink thead,
