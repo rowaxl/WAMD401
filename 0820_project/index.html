@@ -4,19 +4,234 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>History of Games Done Quick</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/index.js" defer></script>
 </head>
 <body>
     <div class="wrapper">
-        <header class="desktop">
-            <h1>Desktop</h1>
+        <header>
+            <div class="title">
+                <span class="logo"></span>
+                <h1>The History of <br>Games Done Quick</h1>
+            </div>
+
+            <div id="nav-button">
+                <i class="fas fa-bars"></i>
+                <span class="sr-only">Menu</span>
+            </div>
+
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#" class="current-page">Home</a></li>
+                    <li><a href="about.html">About GDQ</a></li>
+                    <li><a href="stats.html">Stats</a></li>
+                </ul>
+            </nav>
         </header>
-        <header class="tablet">
-            <h1>Tablet</h1>
-        </header>
-        <header class="mobile">
-            <h1>Mobile</h1>
-        </header>
+
+        <main>
+            <section>
+                <article class="history">
+                    <h2>The History of GDQ</h2>
+
+                    <iframe class="video-history" src="https://www.youtube.com/embed/3biU0YiYMjQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                    <blockquote cite="https://en.wikipedia.org/wiki/Games_Done_Quick#History">
+                        <p>Writer and speedrunner Eric Koziel identifies two important precursors to Games Done Quick: the "Desert Bus for Hope" donation drive organized by <a href="https://en.wikipedia.org/wiki/LoadingReadyRun" target="_blank">LoadingReadyRun</a> in November 2007, and a series of charity speedrun marathons held by The Speed Gamers starting in March 2008</p>
+                        <p>Users of the site Speed Demos Archive decided to hold a charity marathon in Jan 2010, during <a href="https://en.wikipedia.org/wiki/MAGFest" target="_blank">MAGFest</a> 8. It was themed around 8-bit and 16-bit video games and thus dubbed "Classic Games Done Quick" (after the 1990s speedrunning project Quake Done Quick). Internet connectivity problems at the MAGFest hotel forced SDA administrator Mike Uyama to relocate the event to his mother's residence, but it raised over $10,000 for <a href="https://en.wikipedia.org/wiki/CARE_(relief_agency)">CARE</a>.</p>
+                        <p>Following that initial success, the first Awesome Games Done Quick marathon was held in Jan 2011, expanding from two days to five days, incorporating newer games such as Halo and Portal, and raising more than $50,000 for the Prevent Cancer Foundation. The first Summer Games Done Quick was held in August 2011, raising $20,000 for the Organisation for Autism Research. Since then, both Awesome Games Done Quick and Summer Games Done Quick have recurred annually, raising larger amounts each year.</p>
+                        <p>A one-off additional marathon was held in March 2011 to support victims of the <a href="https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami" target="_blank">earthquake and tsunami in Japan</a>; Japan Relief Done Quick raised over $25,000. In addition, a one-off promotional event was held on March 20, 2015 to celebrate the 10th anniversary of the God of War franchise. Over the course of five hours, God of War Done Quick ended up raising $3,500 for The AbleGamers Foundation.</p>
+                        <p>In 2020, Games Done Quick expelled a speedrunner for violating social media policies after the runner made remarks on Twitter that supported <a href="https://en.wikipedia.org/wiki/Antifeminism" target="_blank">antifeminism</a> and the far-right Spanish party <a href="https://en.wikipedia.org/wiki/Vox_(political_party)" target="_blank">Vox</a>.</p>
+                        <p>During the start of Frost Fatales 2020, they announced their new GDQ Studio to produce in-person live events outside of the normal marathons</p>
+                        
+                        <footer>-Wikipedia:<br> 
+                            <cite><a href="https://en.wikipedia.org/wiki/Games_Done_Quick#History" target="_blank">Games Done Quick</a></cite>
+                        </footer>
+                    </blockquote>
+                </article>
+
+            </section>
+            <section>
+                <article class="list">
+                    <h2>List of Marathons</h2>
+
+                    <blockquote cite="https://en.wikipedia.org/wiki/Games_Done_Quick#List_of_marathons">
+                        <h4>Awesome Games Done Quick(AGDQ)</h4>
+
+                        <table class="table-shrink">
+                            <thead>
+                                <tr>
+                                    <th>Dates</th>
+                                    <th>Venue</th>
+                                    <th>Charity</th>
+                                    <th class="numeric">Raised</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-title="Dates">Jan 1–3, 2010</td>
+                                    <td data-title="Venue">Private residence</td>
+                                    <td data-title="Charity"><a href="https://en.m.wikipedia.org/wiki/CARE_(relief_agency)">CARE</a></td>
+                                    <td data-title="Raised" class="numeric">$10,532</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jan 6–11, 2011</td>
+                                    <td data-title="Venue">National 4-H Youth Conference Center, Chevy Chase, Maryland</td>
+                                    <td data-title="Charity" class="base"><a href="https://en.m.wikipedia.org/wiki/Prevent_Cancer_Foundation">Prevent Cancer Foundation</a></td>
+                                    <td data-title="Raised" class="numeric">$52,520</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jan 4–9, 2012</td>
+                                    <td data-title="Venue">National 4-H Youth Conference Center, Chevy Chase, Maryland</td>
+                                    <td data-title="Charity" class="collapsed"><a href="https://en.m.wikipedia.org/wiki/Prevent_Cancer_Foundation">Prevent Cancer Foundation</a></td>
+                                    <td data-title="Raised" class="numeric">$149,045</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">JJan 6–12, 2013</td>
+                                    <td data-title="Venue">National 4-H Youth Conference Center, Chevy Chase, Maryland</td>
+                                    <td data-title="Charity" class="collapsed"><a href="https://en.m.wikipedia.org/wiki/Prevent_Cancer_Foundation">Prevent Cancer Foundation</a></td>
+                                    <td data-title="Raised" class="numeric">$448,425</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jan 5–11, 2014</td>
+                                    <td data-title="Venue">Crowne Plaza Dulles, Herndon, Virginia</td>
+                                    <td data-title="Charity" class="collapsed"><a href="https://en.m.wikipedia.org/wiki/Prevent_Cancer_Foundation">Prevent Cancer Foundation</a></td>
+                                    <td data-title="Raised" class="numeric">$1,031,667</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jan 4–10, 2015</td>
+                                    <td data-title="Venue">Hilton Washington Dulles, Herndon, Virginia</td>
+                                    <td data-title="Charity" class="collapsed"><a href="https://en.m.wikipedia.org/wiki/Prevent_Cancer_Foundation">Prevent Cancer Foundation</a></td>
+                                    <td data-title="Raised" class="numeric">$1,576,085</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jan 8–15, 2017</td>
+                                    <td data-title="Venue">Hilton Washington Dulles, Herndon, Virginia</td>
+                                    <td data-title="Charity" class="collapsed"><a href="https://en.m.wikipedia.org/wiki/Prevent_Cancer_Foundation">Prevent Cancer Foundation</a></td>
+                                    <td data-title="Raised" class="numeric">$1,216,309</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jan 7–14, 2018</td>
+                                    <td data-title="Venue">Hilton Washington Dulles, Herndon, Virginia</td>
+                                    <td data-title="Charity" class="base"><a href="https://en.m.wikipedia.org/wiki/Prevent_Cancer_Foundation">Prevent Cancer Foundation</a></td>
+                                    <td data-title="Raised" class="numeric">$2,222,791</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jan 7–14, 2018</td>
+                                    <td data-title="Venue">Hilton Washington Dulles, Herndon, Virginia</td>
+                                    <td data-title="Charity" class="base"><a href="https://en.m.wikipedia.org/wiki/Prevent_Cancer_Foundation">Prevent Cancer Foundation</a></td>
+                                    <td data-title="Raised" class="numeric">$2,295,191</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jan 6-13, 2019</td>
+                                    <td data-title="Venue">Bethesda North Marriott Hotel & Conference Center, Rockville, Maryland</td>
+                                    <td data-title="Charity" class="collapsed"><a href="https://en.m.wikipedia.org/wiki/Prevent_Cancer_Foundation">Prevent Cancer Foundation</a></td>
+                                    <td data-title="Raised" class="numeric">$2,425,790</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jan 5–12, 2020</td>
+                                    <td data-title="Venue">DoubleTree Hilton, Orlando, Florida</td>
+                                    <td data-title="Charity" class="collapsed"><a href="https://en.m.wikipedia.org/wiki/Prevent_Cancer_Foundation">Prevent Cancer Foundation</a></td>
+                                    <td data-title="Raised" class="numeric">$3,164,002</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h4>Summer Games Done Quick(SGDQ)</h4>
+
+                        <table class="table-shrink">
+                            <thead>
+                                <tr>
+                                    <th>Dates</th>
+                                    <th>Venue</th>
+                                    <th>Charity</th>
+                                    <th class="numeric">Raised</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-title="Dates">Aug 4–6, 2011</td>
+                                    <td data-title="Venue">A participant's residence in West Bountiful, Utah</td>
+                                    <td data-title="Charity">Organisation for Autism Research</td>
+                                    <td data-title="Raised" class="numeric">$21,397</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">May 24–28, 2012</td>
+                                    <td data-title="Venue">A participant's residence in West Bountiful, Utah</td>
+                                    <td data-title="Charity">Organisation for Autism Research</td>
+                                    <td data-title="Raised" class="numeric">$46,279</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jul 25–30, 2013</td>
+                                    <td data-title="Venue">Sheraton Denver Tech Center, Greenwood Village, Colorado</td>
+                                    <td data-title="Charity" class="base"><a href="https://en.m.wikipedia.org/wiki/Doctors_Without_Borders">Doctors Without Borders</a></td>
+                                    <td data-title="Raised" class="numeric">$257,181</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jun 22–28, 2014</td>
+                                    <td data-title="Venue">Crowne Plaza Denver International Airport, Denver, Colorado</td>
+                                    <td data-title="Charity" class="collpsed"><a href="https://en.m.wikipedia.org/wiki/Doctors_Without_Borders">Doctors Without Borders</a></td>
+                                    <td data-title="Raised" class="numeric">$718,235</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jul 26–Aug 2, 2015</td>
+                                    <td data-title="Venue">Crowne Plaza St. Paul Riverfront, Saint Paul, Minnesota</td>
+                                    <td data-title="Charity" class="collpsed"><a href="https://en.m.wikipedia.org/wiki/Doctors_Without_Borders">Doctors Without Borders</a></td>
+                                    <td data-title="Raised" class="numeric">$1,215,601</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jul 3–9, 2016</td>
+                                    <td data-title="Venue">Hilton Washington Dulles, Herndon, Virginia</td>
+                                    <td data-title="Charity" class="collpsed"><a href="https://en.m.wikipedia.org/wiki/Doctors_Without_Borders">Doctors Without Borders</a></td>
+                                    <td data-title="Raised" class="numeric">$1,294,139</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jul 2–9, 2017</td>
+                                    <td data-title="Venue">Hilton Washington Dulles, Herndon, Virginia</td>
+                                    <td data-title="Charity" class="collpsed"><a href="https://en.m.wikipedia.org/wiki/Doctors_Without_Borders">Doctors Without Borders</a></td>
+                                    <td data-title="Raised" class="numeric">$1,216,309</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jun 24–Jul 1, 2018</td>
+                                    <td data-title="Venue">DoubleTree Hilton, Bloomington, Minnesota</td>
+                                    <td data-title="Charity" class="collpsed"><a href="https://en.m.wikipedia.org/wiki/Doctors_Without_Borders">Doctors Without Borders</a></td>
+                                    <td data-title="Raised" class="numeric">$2,168,913</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Jun 23–30, 2019</td>
+                                    <td data-title="Venue">DoubleTree Hilton, Bloomington, Minnesota</td>
+                                    <td data-title="Charity" class="collpsed"><a href="https://en.m.wikipedia.org/wiki/Doctors_Without_Borders">Doctors Without Borders</a></td>
+                                    <td data-title="Raised" class="numeric">$3,039,596</td>
+                                </tr>
+                                <tr>
+                                    <td data-title="Dates">Aug 16–23, 2020</td>
+                                    <td data-title="Venue">Online</td>
+                                    <td data-title="Charity" class="collpsed"><a href="https://en.m.wikipedia.org/wiki/Doctors_Without_Borders">Doctors Without Borders</a></td>
+                                    <td data-title="Raised" class="numeric">---</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <footer>-Wikipedia:<br> 
+                            <cite><a href="https://en.wikipedia.org/wiki/Games_Done_Quick#List_of_marathons" target="_blank">Games Done Quick</a></cite>
+                        </footer>
+                    </blockquote>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                &copy; Games Done Quick
+            </p>
+
+            <p>
+                For Educational purpose only
+            </p>
+        </footer>
     </div>
 </body>
-</html>
+</html>   
