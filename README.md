@@ -7,3 +7,5 @@
 - Aug 10: [Introducing vancouver with pure HTML](https://rowaxl.github.io/WAMD401/0810_assignment/vancouver.html)
 - Aug 12: [HTML styling with CSS](https://rowaxl.github.io/WAMD401/0812_assignment/index.html)
 - Aug 17: [Semantic HTML](https://rowaxl.github.io/WAMD401/0817_assignment/index.html)
+- Aug 20: [Flex exersise](https://rowaxl.github.io/WAMD401/0820_exercise/index.html)
+- Aug 20: [First Project](https://rowaxl.github.io/WAMD401/0820_project/about.html)
