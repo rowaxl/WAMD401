@@ -132,7 +132,7 @@ span.logo {
   height: 70px;
 }
 
-.title h1 {
+h1, h2, h3 {
   text-shadow: #000 1px 1px 2px;
 }
 
@@ -226,8 +226,7 @@ article.history p {
   color: #fff;
 }
 
-article.history a,
-td a {
+a {
   text-decoration: none;
   color: #008efa;
 }
@@ -263,6 +262,7 @@ footer p {
   margin: 0;
   font-size: 0.8em;
   line-height: 1.5;
+  text-align: center;
 }
 
 .link {
@@ -416,6 +416,11 @@ footer p {
 
   .moment iframe {
     height: 200px;
+  }
+
+  .link {
+    width: fit-content;
+    height: 50px;
   }
 }
 
