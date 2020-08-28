@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+    <title>Area Calculation</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Area Calculation</h1>
+        </header>
+        <main>
+            <div class="shape circle">
+                <div class="box">
+                    <h1>Circle</h1>
+                    <div class="form-group">
+                        <label for="area">Area</label>
+                        <input type="number" class="area" id="circle-area" />
+                    </div>
+                </div>
+                <div class="area-calculation">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="raduis">Radius</label>
+                                <input type="number" class="circle-raduis" id="circle-raduis" />
+                            </div>
+                            <button class="btn-calculate" id="btn-calculate-circle">Calculate</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="shape square">
+                <div class="box">
+                    <h1>Square</h1>
+                    <div class="form-group">
+                        <label for="area">Area</label>
+                        <input type="number" class="area" id="square-area" />
+                    </div>
+                </div>
+                <div class="area-calculation">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="side">Side</label>
+                                <input type="number" class="square-side" id="square-side" />
+                            </div>
+                            <button class="btn-calculate" id="btn-calculate-square">Calculate</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="shape rectangle">
+                <div class="box">
+                    <h1>Rectangle</h1>
+                    <div class="form-group">
+                        <label for="area">Area</label>
+                        <input type="number" class="area" id="rectangle-area" />
+                    </div>
+                </div>
+                <div class="area-calculation">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="length">Length</label>
+                                <input type="number" class="rectangle-length" id="rectangle-length" />
+                            </div>
+                            <div class="form-group">
+                                <label for="width">Width</label>
+                                <input type="number" class="rectangle-width" id="rectangle-width" />
+                            </div>
+                            <button class="btn-calculate" id="btn-calculate-rectangle">Calculate</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="shape triangle">
+                <div class="box">
+                    <h1>Triangle</h1>
+                    <div class="form-group">
+                        <label for="area">Area</label>
+                        <input type="number" class="area" id="triangle-area" />
+                    </div>
+                </div>
+                <div class="area-calculation">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="base">Base</label>
+                                <input type="number" class="triangle-base" id="triangle-base" />
+                            </div>
+                            <div class="form-group">
+                                <label for="height">Height</label>
+                                <input type="number" class="triangle-height" id="triangle-height" />
+                            </div>
+                            <button class="btn-calculate" id="btn-calculate-triangle">Calculate</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
