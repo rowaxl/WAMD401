@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="libs/jquery-3.4.1.min.js"></script>
+  <script src="libs/jquery.cycle2.min.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Slide Pictures</h1>
+    </header>
+
+    <main>
+      <div class="hero-slider">
+        <!-- Images -->
+        <div
+          id="mySlideshow"
+          class="hero-slideshow cycle-slideshow"
+          data-cycle-fx="scrollHorz"
+          data-cycle-pager="#adv-custom-pager"
+          data-cycle-auto-height=800
+          data-cycle-auto-height="container"
+          data-cycle-pager="#adv-custom-pager"
+          data-cycle-pager-template="<a href='#'><img src='{{src}}' alt='{{alt}}'></a>"
+        >
+          <img src="https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt="orange">
+          <img src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2009&q=80" alt="banana">
+          <img src="https://images.unsplash.com/photo-1494894194458-0174142560c0?ixßlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80" alt="rose">
+          <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80" alt="headphone">
+          <img src="https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80" alt="white gears">
+        </div>
+
+        <!-- Preview -->
+        <div id="adv-custom-pager" class="cycle-pager"></div>
+
+        <!-- Manipulate Buttons -->
+        <div>
+          <button id="btn-prev" class="btn-nav cycle-prev" data-cycle-cmd="prev" data-cycle-context="#mySlideshow">
+            <span class="sr-only">Previous Picture</span>
+            <span class="material-icons">
+              arrow_back_ios
+              </span>
+          </button>
+          <button id="btn-next" class="btn-nav cycle-next" data-cycle-cmd="next" data-cycle-context="#mySlideshow">
+            <span class="sr-only">Next Picture</span>
+            <span class="material-icons">
+              arrow_forward_ios
+            </span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2020, For Educational use</p>
+      <p>Photos from <a href="https://unsplash.com/">Unsplash</a></p>
+    </footer>
+  </div>
+</body>
+</html>
