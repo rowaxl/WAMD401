@@ -171,4 +171,14 @@ main {
     grid-template-areas: 
       "article1 article2 article3";
   }
+
+  main article:nth-child(1) {
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+
+  main article:nth-child(2) {
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
 }
