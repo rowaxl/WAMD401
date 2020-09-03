@@ -9,3 +9,4 @@
 - Aug 17: [Semantic HTML](https://rowaxl.github.io/WAMD401/0817_assignment/index.html)
 - Aug 20: [Flex exersise](https://rowaxl.github.io/WAMD401/0820_exercise/index.html)
 - Aug 20: [First Project](https://rowaxl.github.io/WAMD401/0820_project/about.html)
+- Sep 03: [Grid Slider / Gallery](https://rowaxl.github.io/WAMD401/0903_assignment/index.html)
