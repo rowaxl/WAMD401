@@ -38,7 +38,6 @@ h1, h2, h3, a {
 header {
   background: #000;
   color: #fff;
-  padding: 20px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,6 +46,7 @@ header {
 
 header h1 { 
   line-height: 1;
+  padding: 15px 25px;
 }
 
 nav {
@@ -88,6 +88,7 @@ button.menu {
   border: none;
   background: transparent;
   margin-top: -10px;
+  margin-right: 10px;
 }
 
 button.menu .bar {
@@ -96,7 +97,6 @@ button.menu .bar {
   background: #fff;
   position: relative;
   top: 10px;
-  transition: background 200ms ease-in-out;
 }
 
 button.menu .bar::before {
@@ -143,4 +143,32 @@ button.menu:focus,
 a {
   text-decoration: none;
   color: #fff;
+}
+
+main {
+  max-width: 1024px;
+  height: 80vh;
+  padding: 20px 50px;
+  margin: 50px auto;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+@media (min-width: 1024px) {
+  button.menu {
+    display: none;
+  }
+
+  nav, .show nav {
+    height: 40px;
+  }
+
+  nav ul {
+    flex-direction: row;
+  }
+
+  nav ul li {
+    text-align: center;
+    width: calc(100% / 6);
+  }
 }
