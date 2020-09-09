@@ -18,9 +18,12 @@ html {
 }
 
 body {
-  width: 100vw;
   padding: 0;
   margin: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
+  overflow: hidden;
 }
 
 img {
@@ -72,6 +75,7 @@ button {
   font-family: 'Grandstander', cursive;
   background: none;
   font-size: 1em;
+  font-weight: 700;
   padding: 15px 25px;
 }
 
@@ -124,6 +128,7 @@ div.menu a::after {
   color: #fff;
   font-weight: 900;
   opacity: 0;
+  transition: opacity 200ms ease;
 }
 
 div.menu article:nth-of-type(2) > a::after {
@@ -134,6 +139,28 @@ div.menu article:nth-of-type(odd) > a::after {
   background: var(--bg-caption);
 }
 
-div.menu a:hover {
+div.menu a:hover::after {
   opacity: 1;
+}
+
+footer {
+  background: var(--bg-footer);
+  color: white;
+  padding: 20px 35px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--cherry);
+  margin-right: 20px;
+}
+
+footer p {
+  margin: 0;
 }
